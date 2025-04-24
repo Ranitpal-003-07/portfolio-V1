@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { twMerge } from "tailwind-merge";
 export default function Marquee({
   className,

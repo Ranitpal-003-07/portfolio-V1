@@ -1,171 +1,192 @@
 export const myProjects = [
   {
     id: 1,
-    title: "E-commerce Platform",
+    title: "RoomLoo",
     description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
-    subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
-    ],
-    href: "",
+      "Enables users to discover paying guest accommodations and roommates with ease, offering a seamless platform to find and connect with PGs and potential roommates both locally and nationwide.",
+
+      subDescription: [
+        "Developed a cross-platform application using Flutter and Firebase to connect users with PG accommodations and roommates.",
+        "Implemented secure user authentication, real-time data updates, and cloud storage with Firebase services.",
+        "Designed an interactive, modern UI with 3D effects and animations using React Three Fiber and Framer Motion for the web version.",
+        "Enabled posting of updates, advanced filtering, and like/skip roommate discovery features to enhance user engagement.",
+      ],
+    href: "https://roomlooweb.vercel.app/",
     logo: "",
-    image: "/assets/projects/accessories.jpg",
+    image: "/assets/projects/RoomLoo.png",
     tags: [
       {
         id: 1,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
+        name: "React",
+        path: "/assets/logos/react.svg",
       },
       {
         id: 2,
-        name: ".Net",
-        path: "/assets/logos/dotnet.svg",
+        name: "css3",
+        path: "/assets/logos/css3.svg",
       },
       {
         id: 3,
-        name: "Ef Core",
-        path: "/assets/logos/efcore.png",
+        name: "javascript",
+        path: "/assets/logos/javascript.svg",
       },
       {
         id: 4,
         name: "TailwindCSS",
         path: "/assets/logos/tailwindcss.svg",
+      },
+      {
+        id: 5,
+        name: "Firebase",
+        path: "/assets/logos/firebase.svg",
       },
     ],
   },
   {
     id: 2,
-    title: "Authentication & Authorization System",
+    title: "Fitness-Freak",
     description:
-      "A secure authentication and authorization system using Auth0 for seamless user management.",
-    subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
-    ],
-    href: "",
+      "A full-featured fitness platform combining user authentication, personalized workout tracking, and gym promotions—offering guidance, progress tracking, and local gym discovery in one seamless experience.",
+      subDescription: [
+        "Built a MERN stack application that combines workout tracking, fitness guidance, and gym promotions in a single platform.",
+        "Implemented secure user authentication using Firebase Auth and JWT for protected route access.",
+        "Integrated third-party APIs to deliver exercise tutorials, nutrition info, and gym discovery features.",
+        "Designed a responsive React frontend with real-time progress charts and activity logs to enhance user engagement.",
+      ],      
+    href: "https://fiitness-freak.vercel.app/",
     logo: "",
-    image: "/assets/projects/auth-system.jpg",
+    image: "/assets/projects/Fitness-freak.png",
     tags: [
       {
         id: 1,
-        name: "Auth0",
-        path: "/assets/logos/auth0.svg",
-      },
-      {
-        id: 2,
         name: "React",
         path: "/assets/logos/react.svg",
       },
       {
+        id: 2,
+        name: "tailwindcss",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+      {
         id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
+        name: "mongodb",
+        path: "/assets/logos/mongodb.svg",
       },
       {
         id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
+        name: "express",
+        path: "/assets/logos/express.svg",
+      },
+      {
+        id: 5,
+        name: "nodejs",
+        path: "/assets/logos/nodejs.svg",
       },
     ],
   },
   {
     id: 3,
-    title: "Blazor Web App",
+    title: "Zenfusion",
     description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
-    subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
-    ],
-    href: "",
+      "The open-source Movie, anime, and music streaming service made with HTML, Bootstrap and plain JS. It lets you search and watch movies, anime and listen to music in the highest quality possible without any ads with a beautiful ui. It can be self hosted or deployed online. ",
+      subDescription: [
+        "Created a fully responsive media streaming platform using HTML, Bootstrap, and vanilla JavaScript.",
+        "Integrated Consumet, JioSaavn, and TMDb APIs to stream anime, music, and movies without ads.",
+        "Designed a sleek, user-friendly UI supporting high-quality playback and advanced search functionality.",
+        "Provided multiple deployment options including Docker, Vercel, and Netlify, with support for local hosting.",
+      ],      
+    href: "https://zenfusion.pages.dev/",
     logo: "",
-    image: "/assets/projects/blazor-app.jpg",
+    image: "/assets/projects/Zenfusion.png",
     tags: [
       {
         id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
+        name: "HTML5",
+        path: "/assets/logos/html5.svg",
       },
       {
         id: 2,
-        name: ".NET Core",
-        path: "/assets/logos/dotnetcore.svg",
+        name: "css3",
+        path: "/assets/logos/css3.svg",
       },
       {
         id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
+        name: "javascript",
+        path: "/assets/logos/javascript.svg",
       },
       {
         id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
+        name: "nodejs",
+        path: "/assets/logos/nodejs.svg",
+      },
+      {
+        id: 5,
+        name: "firebase",
+        path: "/assets/logos/firebase.svg",
       },
     ],
   },
   {
     id: 4,
-    title: "C++ Game Engine",
+    title: "CodeForge",
     description:
-      "A lightweight C++ game engine designed for 2D and 3D game development.",
-    subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
-      "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
-    ],
-    href: "",
+      "CodeForge is a hackathon platform that allows the organizations within LPU to host fun hackathons with talented developers. ",
+      subDescription: [
+        "Built a virtual hackathon management system to streamline event creation, team registration, and project submission.",
+        "Designed a clean and intuitive user interface with Bootstrap and JavaScript for smooth navigation.",
+        "Enabled real-time project uploads, judging, and leaderboard updates to enhance participant engagement.",
+        "Optimized for student and organizational use within LPU, making it easy to host and join hackathons efficiently.",
+      ],      
+    href: "dub.sh/codeforge",
     logo: "",
-    image: "/assets/projects/game-engine.jpg",
+    image: "/assets/projects/CodeForge.png",
     tags: [
       {
         id: 1,
-        name: "C++",
-        path: "/assets/logos/cplusplus.svg",
+        name: "html5",
+        path: "/assets/logos/html5.svg",
       },
       {
         id: 2,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
+        name: "css3",
+        path: "/assets/logos/css3.svg",
       },
       {
         id: 3,
-        name: "Git",
-        path: "/assets/logos/git.svg",
+        name: "javascript",
+        path: "/assets/logos/javascript.svg",
       },
       {
         id: 4,
-        name: "Microsoft",
-        path: "/assets/logos/microsoft.svg",
+        name: "Firebase",
+        path: "/assets/logos/firebase.svg",
+      },
+      {
+        id: 5,
+        name: "Nodejs",
+        path: "/assets/logos/nodejs.svg",
       },
     ],
   },
   {
     id: 5,
-    title: "WordPress Custom Theme",
+    title: "School Management System",
     description:
-      "A fully customizable WordPress theme optimized for performance and SEO.",
-    subDescription: [
-      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
-      "Integrated Tailwind CSS for modern styling and UI enhancements.",
-      "Optimized SEO and page speed using Vite.js for fast builds.",
-      "Implemented custom widgets and plugin compatibility for extended functionality.",
-    ],
+      "A fully functional school management system built with PHP, HTML, CSS, and AJAX—optimized for efficiency, real-time data handling, and seamless administrative control.",
+      subDescription: [
+        "Developed a complete school management system using PHP, HTML, CSS, and AJAX for smooth and dynamic interactions.",
+        "Implemented modules for student enrollment, attendance tracking, grades management, and teacher assignments.",
+        "Designed a responsive UI for administrators, teachers, and students to ensure seamless access across devices.",
+        "Utilized AJAX for real-time data updates without full page reloads, enhancing user experience and performance.",
+      ],      
     href: "",
     logo: "",
-    image: "/assets/projects/wordpress-theme.jpg",
+    image: "/assets/projects/school-management-system.png",
     tags: [
       {
         id: 1,
-        name: "WordPress",
-        path: "/assets/logos/wordpress.svg",
+        name: "php",
+        path: "/assets/logos/php.svg",
       },
       {
         id: 2,
@@ -179,45 +200,45 @@ export const myProjects = [
       },
       {
         id: 4,
-        name: "Vite.js",
-        path: "/assets/logos/vitejs.svg",
+        name: "mysql",
+        path: "/assets/logos/mysql.svg",
       },
     ],
   },
   {
     id: 6,
-    title: "Online Learning Platform",
+    title: "Portfolio-v2",
     description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
-    subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-      "Integrated Stripe API for secure payment processing.",
-    ],
+      "A personal portfolio website showcasing my skills, projects, and experiences. Built with React, Tailwind CSS, and Framer Motion for smooth animations and transitions.",
+      subDescription: [
+        "Created a personal portfolio website using React, Tailwind CSS, and Framer Motion for smooth animations.",
+        "Implemented a responsive design to ensure optimal viewing on all devices.",
+        "Integrated a contact form with email notifications for easy communication.",
+        "Showcased projects with detailed descriptions and links to live demos.",
+      ],
     href: "",
     logo: "",
-    image: "/assets/projects/elearning.jpg",
+    image: "/assets/projects/Portfolio-V2.png",
     tags: [
       {
         id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
+        name: "React",
+        path: "/assets/logos/react.svg",
       },
       {
         id: 2,
-        name: "Azure",
-        path: "/assets/logos/azure.svg",
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
       },
       {
         id: 3,
-        name: "Stripe",
-        path: "/assets/logos/stripe.svg",
+        name: "javascript",
+        path: "/assets/logos/javascript.svg",
       },
       {
         id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
+        name: "Framer Motion",
+        path: "/assets/logos/framer-motion.svg",
       },
     ],
   },
@@ -231,98 +252,210 @@ export const mySocials = [
   },
   {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/ali-sanati/",
+    href: "https://www.linkedin.com/in/ranitpal003/",
     icon: "/assets/socials/linkedIn.svg",
   },
   {
     name: "Instagram",
-    href: "https://www.instagram.com/ali.sanatidev/reels/",
+    href: "https://www.instagram.com/ranitpal_003/",
     icon: "/assets/socials/instagram.svg",
   },
 ];
 
 export const experiences = [
   {
-    title: "Software Developer",
-    job: "Security & Defense Projects",
+    title: "Web Developer",
+    job: "Freelance",
+    date: "2023-present",
+    contents: [
+      "Developed a cross-platform application using Flutter and Firebase to connect users with PG accommodations and roommates.",
+      "Implemented secure user authentication, real-time data updates, and cloud storage with Firebase services.",
+      "Designed an interactive, modern UI with 3D effects and animations using React Three Fiber and Framer Motion for the web version.",
+      "Enabled posting of updates, advanced filtering, and like/skip roommate discovery features to enhance user engagement.",
+      "Built a MERN stack application that combines workout tracking, fitness guidance, and gym promotions in a single platform.",
+      "Implemented secure user authentication using Firebase Auth and JWT for protected route access.",
+      "Integrated third-party APIs to deliver exercise tutorials, nutrition info, and gym discovery features.",
+      "Designed a responsive React frontend with real-time progress charts and activity logs to enhance user engagement.",
+    ],
+  },
+  {
+    title: "ui/ux designer",
+    job: "Freelance",
     date: "2021-2023",
     contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
+      "Created a fully responsive media streaming platform using HTML, Bootstrap, and vanilla JavaScript.",
+      "Integrated Consumet, JioSaavn, and TMDb APIs to stream anime, music, and movies without ads.",
+      "Designed a sleek, user-friendly UI supporting high-quality playback and advanced search functionality.",
+      "Provided multiple deployment options including Docker, Vercel, and Netlify, with support for local hosting.",
+      "Developed a complete school management system using PHP, HTML, CSS, and AJAX for smooth and dynamic interactions.",
+      "Implemented modules for student enrollment, attendance tracking, grades management, and teacher assignments.",
+      "Designed a responsive UI for administrators, teachers, and students to ensure seamless access across devices.",
+      "Utilized AJAX for real-time data updates without full page reloads, enhancing user experience and performance.",
+      "Created a personal portfolio website using React, Tailwind CSS, and Framer Motion for smooth animations.",
+      "Implemented a responsive design to ensure optimal viewing on all devices.",
     ],
   },
+  
+];
+
+export const languages = [
   {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
-    date: "2023-2024",
-    contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
-    ],
+    name: "JavaScript",
+    logo: "assets/logos/javascript.svg",
   },
   {
-    title: "Freelance Developer",
-    job: "Self-Employed",
-    date: "2025-Present",
-    contents: [
-      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
-    ],
+    name: "HTML5",
+    logo: "assets/logos/html5.svg",
+  },
+  {
+    name: "TypeScript",
+    logo: "assets/logos/typescript.png",
+  },
+  {
+    name: "Java",
+    logo: "assets/logos/java.png",
+  },
+  {
+    name: "C++",
+    logo: "assets/logos/cplusplus.svg",
+  },
+  {
+    name:"Flutter",
+    logo: "assets/logos/flutter.png",
   },
 ];
-export const reviews = [
+
+export const frameworks = [
   {
-    name: "Jack",
-    username: "@jack",
-    body: "I've never seen anything like this before. It's amazing. I love it.",
-    img: "https://robohash.org/jack",
+    name: "React",
+    logo: "assets/logos/react.svg",
   },
   {
-    name: "Jill",
-    username: "@jill",
-    body: "I don't know what to say. I'm speechless. This is amazing.",
-    img: "https://robohash.org/jill",
+    name: "Angular",
+    logo: "assets/logos/angular.png",
   },
   {
-    name: "John",
-    username: "@john",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://robohash.org/john",
+    name: "Vite",
+    logo: "assets/logos/vitejs.svg",
   },
   {
-    name: "Alice",
-    username: "@alice",
-    body: "This is hands down the best thing I've experienced. Highly recommend!",
-    img: "https://robohash.org/alice",
+    name: "Express",
+    logo: "assets/logos/express.png",
   },
   {
-    name: "Bob",
-    username: "@bob",
-    body: "Incredible work! The attention to detail is phenomenal.",
-    img: "https://robohash.org/bob",
+    name: "Next.js",
+    logo: "assets/logos/nextjs.png",
   },
   {
-    name: "Charlie",
-    username: "@charlie",
-    body: "This exceeded all my expectations. Absolutely stunning!",
-    img: "https://robohash.org/charlie",
+    name: "Node.js",
+    logo: "assets/logos/nodejs.png",
+  },
+];
+
+export const databases = [
+  {
+    name: "MongoDB",
+    logo: "assets/logos/mongodb.png",
   },
   {
-    name: "Dave",
-    username: "@dave",
-    body: "Simply breathtaking. The best decision I've made in a while.",
-    img: "https://robohash.org/dave",
+    name: "PostgreSQL",
+    logo: "assets/logos/postgre.png",
   },
   {
-    name: "Eve",
-    username: "@eve",
-    body: "So glad I found this. It has changed the game for me.",
-    img: "https://robohash.org/eve",
+    name: "MySQL",
+    logo: "assets/logos/mysql.png",
+  },
+  {
+    name: "Redis",
+    logo: "assets/logos/redis.png",
+  },
+  {
+    name: "Firebase",
+    logo: "assets/logos/firebase.png",
+  },
+];
+
+export const tools = [
+  {
+    name: "Git",
+    logo: "assets/logos/git.svg",
+  },
+  {
+    name: "Docker",
+    logo: "assets/logos/docker.png",
+  },
+  {
+    name: "VS Code",
+    logo: "assets/logos/vscode.png",
+  },
+  {
+    name: "Webpack",
+    logo: "assets/logos/webpack.png",
+  },
+  {
+    name: "NPM",
+    logo: "assets/logos/npm.png",
+  },
+  {
+    name:"Android Studio",
+    logo: "assets/logos/and.png",
+  },
+  {
+    name: "Figma",
+    logo: "assets/logos/figma.png",
+  },
+  {
+    name: "Postman",
+    logo: "assets/logos/postman.png",
+  },
+  {
+    name: "Canva",
+    logo: "assets/logos/canva.jpeg",
+  },
+  {
+    name: "Framer Motion",
+    logo: "assets/logos/framer.jpeg",
+  }
+];
+
+
+export const educationData = [
+  {
+    date: "2022 - 2026",
+    degree: "Bachelor of Technology in Computer Science and Engineering",
+    institution: "Lovely Professional University",
+    grade: "8.63/10 CGPA, Dean's List",
+    achievements: [
+      "Participated in Hackathons and coding competitions, securing top positions organized by Board Infinity",
+      "Was selected as a finalist in the Smart India Hackathon 2023, a national-level hackathon",
+      "Freelanced for various clients, developing web and mobile applications",
+      "Led the club in organizing workshops for meantal peace in collaboration with Art of Living, enhancing student engagement",
+    ]
+  },
+  {
+    date: "2019 - 2021",
+    degree: "Indermediate(Higher Secondary)",
+    institution: "Bagdah High School",
+    grade: "94.2% (Science Stream)",
+    achievements: [
+      "Achieved 94.2% in the West Bengal Council of Higher Secondary Education (WBCHSE) examination",
+      "Participated in various science fairs and exhibitions, showcasing innovative projects",
+      "Contirbuted to the development of schools chemistry lab by winning a state-level science competition",
+      "Led the school Science Club to national level competitions, fostering a culture of innovation and inquiry",
+
+
+    ]
+  },
+  {
+    date: "2017 - 2019",
+    degree: "Matriculation",
+    institution: "Bagdah High School",
+    grade: "96.7% Overall Score",
+    achievements: [
+      "Achieved 96.7% in the West Bengal Board of Secondary Education (WBBSE) examination",
+      "Participated in various inter-school competitions, winning accolades in quiz,mob parliament and science fairs",
+      "played badminton at the district level, representing the school in various tournaments",
+      "Contributed to the school's annual magazine, showcasing artistic and editorial skills"
+    ]
   },
 ];

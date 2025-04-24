@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { useState } from "react";
 import emailjs from "@emailjs/browser";
 import Alert from "../components/Alert";
@@ -34,9 +35,9 @@ const Contact = () => {
         "template_17us8im",
         {
           from_name: formData.name,
-          to_name: "Ali",
+          to_name: "Ranit",
           from_email: formData.email,
-          to_email: "AliSanatiDev@gmail.com",
+          to_email: "ranitpal699@gmail.com",
           message: formData.message,
         },
         "pn-Bw_mS1_QQdofuV"
@@ -51,7 +52,7 @@ const Contact = () => {
     }
   };
   return (
-    <section className="relative flex items-center c-space section-spacing">
+    <section className="relative flex items-center c-space section-spacing" id="contact">
       <Particles
         className="absolute inset-0 -z-50"
         quantity={100}

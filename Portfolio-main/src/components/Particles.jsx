@@ -1,3 +1,5 @@
+/* eslint-disable react/prop-types */
+/* eslint-disable no-unused-vars */
 import { twMerge } from "tailwind-merge";
 import React, { useEffect, useRef, useState } from "react";
 

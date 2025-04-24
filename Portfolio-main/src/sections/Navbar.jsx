@@ -14,8 +14,23 @@ function Navigation() {
         </a>
       </li>
       <li className="nav-li">
-        <a className="nav-link" href="#work">
-          Work
+        <a className="nav-link" href="#skill">
+          Skill
+        </a>
+      </li>
+      <li className="nav-li">
+        <a className="nav-link" href="#education">
+          Education
+        </a>
+      </li>
+      <li className="nav-li">
+        <a className="nav-link" href="#experience">
+          Experience
+        </a>
+      </li>
+      <li className="nav-li">
+        <a className="nav-link" href="#project">
+          Project
         </a>
       </li>
       <li className="nav-li">
@@ -36,7 +51,7 @@ const Navbar = () => {
             href="/"
             className="text-xl font-bold transition-colors text-neutral-400 hover:text-white"
           >
-            Ali
+            Ranit
           </a>
           <button
             onClick={() => setIsOpen(!isOpen)}

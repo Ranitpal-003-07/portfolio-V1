@@ -1,3 +1,6 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable react/jsx-key */
+/* eslint-disable react/prop-types */
 import { motion } from "motion/react";
 const ProjectDetails = ({
   title,
@@ -39,8 +42,8 @@ const ProjectDetails = ({
                 />
               ))}
             </div>
-            <a className="inline-flex items-center gap-1 font-medium cursor-pointer hover-animation">
-              View Project{" "}
+            <a className="inline-flex items-center gap-1 font-medium cursor-pointer hover-animation" href={href}>
+              View Project
               <img src="assets/arrow-up.svg" className="size-4" href={href} />
             </a>
           </div>

@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { FlipWords } from "./FlipWords";
 import { motion } from "motion/react";
 
@@ -18,7 +19,7 @@ const HeroText = () => {
           animate="visible"
           transition={{ delay: 1 }}
         >
-          Hi I'm Ali
+          Hi I'm RANIT
         </motion.h1>
         <div className="flex flex-col items-start">
           <motion.p
@@ -61,7 +62,7 @@ const HeroText = () => {
           animate="visible"
           transition={{ delay: 1 }}
         >
-          Hi,I'm Ali
+          Hi,I'm RANIT
         </motion.p>
         <div>
           <motion.p
